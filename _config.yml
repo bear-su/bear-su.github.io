@@ -46,10 +46,10 @@ avatar: /assets/img/favicons/android-chrome-512x512.png
 toc: true
 
 comments:
-  active: 'disqus'
-  # The active options are as follows:
-  disqus:
-    shortname: bear-su-github-io
+  active: 'utterances'
+  utterances:
+    repo: bear-su/bear-su.github.io
+    issue_term: pathname
 
 pwa:
   enabled: true # the option for PWA feature
@@ -58,6 +58,9 @@ paginate: 10
 
 # The base URL of your site
 baseurl: ""
+
+plugins:
+  - jekyll-sitemap
 
 # ------------ The following options are not recommended to be modified ------------------
 
