@@ -61,6 +61,7 @@ baseurl: ""
 
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # ------------ The following options are not recommended to be modified ------------------
 
