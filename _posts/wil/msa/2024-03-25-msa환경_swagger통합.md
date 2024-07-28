@@ -19,12 +19,13 @@ Gateway를 통해 테스트 하는 것이 좋습니다.
 ### 1. SpringDoc 의존성 추가
 - `SpringDoc`은 OpenAPI 스펙을 기반으로 자동으로 API 문서를 생성해주는 라이브러리이며, Swagger 라이브러리가 포함되어 있어 Swagger UI를 사용할 수 있습니다.
 
-[ Netty 사용시 ]
+
+- Netty 사용시 
 ~~~java
 implementation 'org.springdoc:springdoc-openapi-starter-webflux-ui:2.4.0' 
 ~~~
 
-[ Tomcat 사용시 ]
+- Tomcat 사용시
 ~~~java
 implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.4.0'
 ~~~
